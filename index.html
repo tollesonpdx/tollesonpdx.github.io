@@ -1,23 +1,42 @@
-<!--Chad Tolleson - CS565 - Fall 2019 - Assignment 2 - Exercise 3-->
 <!DOCTYPE html>
-<html lang="en-US" class>
+<html lang="en-US">
+  
     <head>
-        <title>
-            Chad Tolleson - CS565 - Fall 2019 - Portfolio Project
-        </title>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Chad Tolleson - CS565 - Fall 2019 - Portfolio Project</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css"/>
         <link rel="stylesheet" href="big_styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </head>
+   
     <body>
+        
         <header>
-            <div id="pg-header">Chad Tolleson - CS565 - Fall 2019 - Assignment 2 - Exercise 3</div>
-            <nav>
-                <ul>
-                    <li><a href="#bio">bio</a></li>
-                    <li><a href="#news_links">news links</a></li>
-                    <li><a href="#fancy_equine">fancy equine</a></li>
-                    <li><a href="#contact_form">contact form</a></li>
-                </ul>
+            <!-- <nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top"> -->
+            <nav id="masternav" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Chad M. Tolleson</a>
+                    </div>
+                
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>  
+
+                    <div class="navbar-collapse collapse w-100" id="collapsibleNavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#bio">Bio</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#news_links">News</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#fancy_equine">Equine</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+                         </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 
@@ -58,27 +77,7 @@
                 </h4>
             </p>
         </section>
-        
-        <br>
-        
-        <form id="contact_form" action="none">
-            <h3 id="form-header">Contact Form</h3>
-            <p>
-                <input type="text" name="firstname" placeholder="first name"> 
-            </p>
-            <p> 
-                <input type="text" name="lastname" placeholder="last name"> 
-            </p>
-            <p>
-                <input type="text" name="email" placeholder="e-mail"> 
-            </p>
-            <p>
-                <textarea name="feedback" id="feedback" placeholder="what are you thinking?"></textarea>
-            </p>
-            <input type="submit" name="submit" value="Submit">
-            <input type="submit" name="reset" value="Reset">
-        </form>
-        
+            
         <br><br><br>
         
         <footer>

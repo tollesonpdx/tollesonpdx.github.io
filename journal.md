@@ -10,4 +10,8 @@ Completed draft via assignment 2 and changed the formatting of the existing modu
 
 I also need to add some more meaningful content when it comes to my bio, links to projects, and the pictures meaningful to me. 
 
+## 10/30/2019
+Updated the draft files to include the changes made for assignment 2, exercise 3.
+Created the github.io page and debugged issues with the github version of my page not updating with changes made to the website.
+I referenced this website to learn how to maintain the same header across multiple pages of my site. https://www.htmlcenter.com/blog/creating-a-headerfooter-to-be-used-on-all-pages/
 
