@@ -18,11 +18,15 @@ Drafted the skeleton of the portfolio website via assignments 1 and 2.
 -Attempted to transfer my completed navbar code into a seperate file which can then get used by every page in my site. By using this approach, I hope to be able to make changes in one place, for example "standard_navbar.html" that will automatically get used in all pages with the navbar. After a little investigation, this appears to be a more time intensive upgrade than anticipated, using jQuery or other scripts to modify the html on the fly. As such, I decided to move this task onto a newly formed "stretch goal" list.
 -Split the sections into separate pages, removed extra code to facilitate customization.
 -Moved the news and equine pages from the navbar to simple links within the "about" page.
--Added a YouTube video background to the main landing page. Referenced this website for reference: https://stackoverflow.com/questions/42055200/set-youtube-video-on-background
--
+-Added a YouTube video background to the main landing page. Referenced these websites for inspiration and implementation:
+    https://stackoverflow.com/questions/42055200/set-youtube-video-on-background
+    https://codepen.io/dudleystorey/pen/PZyMrd?editors=1100
+-Added buttons on the left hand side of the landing page.
+-Updated the contact us page from the exact format submitted for class to a version that more slightly fits into the overall style of the current page. I intend to deactivate this page after grading since a user could not actually make contact.
 
-
-
+# To Do Before Submission
+Update the header and footer for every page.
 
 # Stretch Goals / ToDo After Project Due Date
 -move navbar code into a separate file for easier propogation across pages
+-add credits for the videos used on the landing page

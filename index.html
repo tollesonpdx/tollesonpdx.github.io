@@ -8,6 +8,8 @@
         <title>Chad Tolleson - CS565 - Fall 2019 - Portfolio Project</title>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css"/>
         <link rel="stylesheet" href="big_styles.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/pixel-operator" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/industrial" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -30,7 +32,7 @@
 
                     <div class="navbar-collapse collapse w-100" id="collapsibleNavbar">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
                             <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -41,16 +43,23 @@
         </header>
       
         <div id="landing">
-            <iframe id="landingvid" frameborder="0"
-                src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&controls=0&mute=1&autohide=1&loop=1"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+            <!-- <iframe id="landingvid" frameborder="0"  allowfullscreen
+                src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&controls=1&mute=1&autohide=1&loop=1">
+            </iframe> -->
+
+            <iframe id="landingvid"
+                src="https://www.youtube.com/embed/UO_QuXr521I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
-            <!-- <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul> -->
+
+
+            <div class="grid-container" id="landinggrid">
+                <div class="grid-item item1"><a class="btn btn-lg btn-outline-success" href="about.html">About Me</a></div>
+                <div class="grid-item item2"><a class="btn btn-lg btn-outline-success" href="projects.html">Projects</a></div>
+                <div class="grid-item item3"><a class="btn btn-lg btn-outline-success" href="contact.html">Contact</a></div>
+                <!-- <div class="grid-item item1"><a class="nav-link" href="about.html">About Me</a></div> -->
+                <!-- <div class="grid-item item2"><a class="nav-link" href="projects.html">Projects</a></div> -->
+                <!-- <div class="grid-item item3"><a class="nav-link" href="contact.html">Contact</a></div> -->
+            </div> 
         </div>
 
         <footer>© 2019 Chad Tolleson. All rights reserved.</footer>
