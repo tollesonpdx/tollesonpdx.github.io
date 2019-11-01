@@ -24,8 +24,15 @@ Drafted the skeleton of the portfolio website via assignments 1 and 2.
 -Added buttons on the left hand side of the landing page.
 -Updated the contact us page from the exact format submitted for class to a version that more slightly fits into the overall style of the current page. I intend to deactivate this page after grading since a user could not actually make contact.
 
+## 11/1/2019
+-cleaned up the contact form page to fit with the overall page style
+-reformatted the news links page and moved the links to both news and equine onto the projects page
+-the fancy horse pictures were not resizing according to the viewport, so I found some customized settings for images that will allow the pics to grow or shrink within certain parameters while also maintaining their original aspect ratios. This page is where I found the related formatting code: https://stackoverflow.com/questions/12991351/css-force-image-resize-and-keep-aspect-ratio
+-
+
 # To Do Before Submission
-Update the header and footer for every page.
+-update the head on each page to match index
+-update the header and footer for every page.
 
 # Stretch Goals / ToDo After Project Due Date
 -move navbar code into a separate file for easier propogation across pages
