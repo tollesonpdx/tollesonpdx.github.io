@@ -11,12 +11,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- <script src="script.js"></script> -->
     </head>
    
     <body>
         
         <header>
-            <!-- <nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top"> -->
+            <!-- <div id="navbar-frame"></div> -->
             <nav id="masternav" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
@@ -29,59 +30,30 @@
 
                     <div class="navbar-collapse collapse w-100" id="collapsibleNavbar">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="#bio">Bio</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="#news_links">News</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="#fancy_equine">Equine</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                          </ul>
                     </div>
                 </div>
             </nav>
         </header>
+      
+        <div id="landing">
+            <iframe id="landingvid" frameborder="0"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&controls=0&mute=1&autohide=1&loop=1"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+            </iframe>
+            <!-- <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul> -->
+        </div>
 
-        <section id="bio">
-            <div id="bio-header">~BIO~</div>
-            <div id="bio-body">Born and raised in rural Texas, obtained my undergrad in New Orleans, did business consulting for a while, now studying CS at PSU!</div>
-        </section>
-
-        <br>
-
-        <section id="news_links">
-            <p>
-                <h3>You should always read the news every morning:</h3>
-                <ol id="news-list">
-                    <li><a href="https://www.cnn.com">CNN</a></li>
-                    <li><a href="https://www.bloomberg.com">Bloomberg</a></li>
-                    <li><a href="https://www.cnbc.com">CNBC</a></li>
-                    <li><a href="https://www.opb.org">OPB</a></li>
-                    <li><a href="https://www.oregonlive.com">Oregon Live</a></li>
-                </ol>
-            </p>
-        </section>
+        <footer>© 2019 Chad Tolleson. All rights reserved.</footer>
         
-        <br>
-        
-        <section id="fancy_equine">
-            <p>
-                <h3>Pictures of the exotic Poitevin draft horse, Baudet du Poitou donkey, and Poitevin mule: CAN YOU SEE THIS</h3>
-                <ul id="pics-list">
-                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Leonardo_11%2C_Poitevin_stallion.jpg" width="300" height="250" alt="Poitevin stallion, at show, maybe named 'Leonardo'"></li>
-                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Poitevin-mulassier06_SDA2012.JPG" width="300" height="250" alt="a fancier Poitevin stallion in hand, at show"></li>
-                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Poitou-female-one-year-old.jpg" width="300" height="250" alt="one year old Baudet du Poitou female"></li>
-                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Mule-poitevine_SDA2013.JPG" width="300" height="250" alt="mule Poitevine with pack-saddle, at show"></li>
-                </ul>
-                <h4>
-                    Thanks to Wikipedia for the info on Poitevin horses!
-                    <a href="https://en.wikipedia.org/wiki/Poitevin_horse">Wikipedia: Poitevin horses</a>
-                </h4>
-            </p>
-        </section>
-            
-        <br><br><br>
-        
-        <footer>
-            <em>developed by Chad Tolleson in 2019 all rights reserved</em>
-        </footer>
     </body>
 </html>
