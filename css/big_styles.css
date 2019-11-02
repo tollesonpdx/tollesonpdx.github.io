@@ -1,7 +1,7 @@
 
 :root {
     --coolgreen:#17b06b;
-    
+    --mustard:rgb(255,219,88);
 }
 
 
@@ -69,16 +69,16 @@ header {
     font-size: 1.25rem;
 }
 
-.about {
+#aboutheader {
     /* background-color: lightcoral; */
-    /* position: relative; */
-    /* margin-top: 100px; */
-    /* top: 100px; */
+    position: relative;
+    margin-top: 5%;
 }
 
 #aboutgrid {
     display: grid;
     width: 100%;
+    margin-bottom: 10%;
     grid-template-columns: 1fr 1fr 1fr;
     /* grid-template-rows: 1fr; */
     grid-gap: 3%;
@@ -93,7 +93,12 @@ header {
 .aboutitem3 { grid-area: three; }
 .aboutitem4 { grid-area: four; }
 .aboutitem5 { grid-area: five; }
-.aboutitem6 { grid-area: six; }
+.aboutitem6 { grid-area: six; font-size: 80%;text-align: center;}
+
+a:hover {
+    color: initial;
+    text-decoration: none;
+}
 
 .chadbutton {
     width: 100%;
@@ -105,12 +110,64 @@ header {
     align-content: center;
 }
 
-#chadbutton1 {
-    background-color:rgb(255,219,88);
+.chadbutton1 {
+    background-color:var(--mustard);
 }
 
-#chadbutton2 {
-    background-color: rosybrown;
+.chadbutton2 {
+    background-color: lightsteelblue;
+    align-content: center;
+    align-items: center;
+    justify-content: center; 
+}
+
+#projectsheader {
+    /* background-color: lightcoral; */
+    position: relative;
+    margin-top: 5%;
+}
+
+#projgrid {
+    display: grid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 3%;
+    grid-template-areas:    'oneA oneB'
+                            'twoA twoB'
+                            'threeA threeB'
+                            'fourA fourB';
+}
+
+.projitema {
+    justify-content: left;
+    background-color: aliceblue;
+    /* border-radius: 5%; */
+}
+
+.projitemb {
+    /* background-color: aquamarine; */
+}
+
+.projitem1a { grid-area: oneA; }
+.projitem1b { grid-area: oneB; }
+.projitem2a { grid-area: twoA; }
+.projitem2b { grid-area: twoB; }
+.projitem3a { grid-area: threeA; }
+.projitem3b { grid-area: threeB; }
+.projitem4a { grid-area: fourA; }
+.projitem4b { grid-area: fourB; }
+
+#rando {
+    position: fixed;
+    bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    width: 100%;
+    align-items: right;
 }
 
 #news_list {

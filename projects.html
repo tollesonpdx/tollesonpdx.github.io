@@ -1,31 +1,108 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <!-- <meta charset="UTF-8"> -->
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-        <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
-        <title>Chad Tolleson - CS565 - Fall 2019 - Portfolio Project - Projects</title>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Chad Tolleson - CS565 - Fall 2019 - Portfolio Project - Home</title>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css"/>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/boot strap.min.js"></script>
         <link rel="stylesheet" href="css/big_styles.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/pixel-operator" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/industrial" type="text/css"/>
+        <link rel="browser icon" href="img/gitFace.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+        <!-- <script src="script.js"></script> -->
     </head>
     
     <body>
+        
+        <header>
+            <!-- <div id="navbar-frame"></div> -->
+            <nav id="masternav" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">Chad M. Tolleson</a>
+                    </div>
+                
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>  
 
-        <header>Chad Tolleson - Projects</header>
+                    <div class="navbar-collapse collapse w-100" id="collapsibleNavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
         
         <section class="projects">
-                <div class="sectionheader">~A Sample of Previous and Ongoing Projects~</div>
-                <div class="sectionbody">
-                    <p>project a</p>
-                    <p>project b</p>
+                <div class="sectionheader" id=projectsheader>Select Past and Ongoing Projects</div>
+                
+                <div class="grid-container" id="projgrid">
+                    <div class="grid-item projitema projitem1a">
+                        COMPARATIVE CONVEX HULL<br>
+                        A convex hull is the smallest convex polygon containing a given set of points on a plane. Each vertex of the convex hull represents the point at the extreme edge of the set of points in a particular direction. Connecting each of these vertexes creates a boundary, or hull that entirely encompasses all of the points on the plane. A convex hull is commonly described using the following analogy:<br>
+                        &#8195;&bullet; Start a wooden board with a bunch of nails driven into it.<br>
+                        &#8195;&bullet; Grab a rubber band,<br>
+                        &#8195;&bullet; stretch the rubber band, around all of the nails and let go.<br>
+                        &#8195;&bullet; The rubber band now encompasses all of the nails,<br>
+                        &#8195;&bullet; thus creating a convex hull.<br>
+                        &#8195;&bullet; Nails touching the rubber band are the vertexes along the convex hull.<br>
+                        For this project I coded several different implementations of convex hull and compared them against different sets of randomly gneerated points, then compared their performance.
+                    </div>
+                    <div class="grid-item projitemb projitem1b">
+                        <a class="chadbutton chadbutton2" href="https://github.com/tollesonpdx/Comparative_Convex_Hull" target="0">
+                            Click Here For<br>Comparative Convex Hull</a>
+                    </div>
+                    <div class="grid-item projitema projitem2a">
+                        PAIRING RECIPIES AND BEERS USING postgreSQL<br>
+                        Using a postgreSQL database and publicly available datasets of recipes (from Epicurious) and beer (from the Open Beer db) we created a tool that allows users to find ideal beer pairings for recipes that can be made only with the ingredients on hand. Conversely, if a user is drinking a particular beer they could determine the best cusine or even recipe to pair with said beer.
+                    </div>
+                    <div class="grid-item projitemb projitem2b">
+                        <a class="chadbutton chadbutton2" href="https://github.com/tollesonpdx/Pairing_Recipies_With_Beer" target="0">
+                            Click Here For<br>Pairing Recipies With Beer</a>
+                    </div>
+                    <div class="grid-item projitema projitem3a">
+                        FULL-STACK PORTFOLIO<br>
+                        The complete portfolio of materials developed in CS565.
+                    </div>
+                    <div class="grid-item projitemb projitem3b">
+                        <a class="chadbutton chadbutton2" href="https://github.com/tollesonpdx/CS565_assignments" target="0">
+                            Click Here For<br>Full-Stack Portfolio</a>
+                    </div>
+                    <div class="grid-item projitema projitem4a">
+                        LAST MINUTE CAMPING WITH C<br>
+                        Facing the challenge of finding a last minute camping spot with both fair weather and within driving distance became too much of a drag. So I created a tool using C, SQLite, and some relevant APIs to faciliate the process. Ideally a user will submit their starting location and desired maximum driving time, and then the system will return a list of campground within that driving distance and the related weather reports. 
+                    </div>
+                    <div class="grid-item projitemb projitem4b">
+                        <a class="chadbutton chadbutton2" href="https://github.com/tollesonpdx/Last_Minute_Camping_With_C" target="0">
+                            Click Here For<br>Last Minute Camping With C</a>
+                    </div>
                 </div>
         </section>
         
-        <div class="container">
+        <div class="container" id="rando">
             <div class="row">
-                <div class="col-sm-2"><a class="btn btn-sm btn-outline-success" href="news.html">News</a></div>
-                <div class="col-sm-2"><a class="btn btn-sm btn-outline-success" href="equine.html">Equine</a></div>
+                <div class="col-sm-1"><a href="#"></a></div>
+                <div class="col-sm-1"><a href="#"></a></div>
+                <div class="col-sm-1"><a href="#"></a></div>
+                <div class="col-sm-1"><a href="#"></a></div>
+                <div class="col-sm-1"><a href="#"></a></div>
+                <div class="col-sm-1"><a href="#"></a></div>
+                <div class="col-sm-1"><a href="#"></a></div>
+                <div class="col-sm-1"><a href="#"></a></div>
+                <div class="col-sm-1"><a href="#"></a></div>
+                <div class="col-sm-1"><a class="btn btn-sm btn-outline-success" href="news.html">News</a></div>
+                <div class="col-sm-1"><a class="btn btn-sm btn-outline-success" href="equine.html">Equine</a></div>
             </div>
         </div>
 

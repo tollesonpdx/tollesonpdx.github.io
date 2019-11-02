@@ -1,65 +1,86 @@
 <!DOCTYPE html>
 <html lang="en-US">
   
-    <head>
+<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Chad Tolleson - CS565 - Fall 2019 - Portfolio Project - Home</title>
-        <link rel="stylesheet" type="text/css"
-            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css"/>
         <link rel="stylesheet" href="css/big_styles.css">
-        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/pixel-operator" type="text/css" />
-        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/industrial" type="text/css" />
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/pixel-operator" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/industrial" type="text/css"/>
+        <link rel="browser icon" href="img/gitFace.png">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
         <!-- <script src="script.js"></script> -->
     </head>
-        
     
     <body>
+        
+        <header>
+            <!-- <div id="navbar-frame"></div> -->
+            <nav id="masternav" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">Chad M. Tolleson</a>
+                    </div>
+                
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>  
 
-        <header>Chad Tolleson - About Me</header>
+                    <div class="navbar-collapse collapse w-100" id="collapsibleNavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
         
         <section class="about">
-            <div class="sectionheader">~About Chad~</div>
+            <div class="sectionheader" id="aboutheader">About Chad</div>
             <div class="sectionbody">
                 <div class="grid-container" id="aboutgrid">
                     <div class="grid-item aboutitem1">
-                            Born and raised in rural Texas, obtained my undergrad in New Orleans, did business consulting for a while, 
-                            now studying CS at PSU!<br><br>
-                            Professionally speaking, I am self-described as "Analytically minded professional with proven track record
+                            I was born and raised in rural Texas, obtained my undergraduate degree at Tulane University in New Orleans, did business consulting for a while, 
+                            and am now studying CS at PSU!<br><br>
+                            Professionally I can be described as "Analytically minded professional with proven track record
                                 of reliably managing dynamic business units, cultivating effective teams, leading special projects, and 
                                 orchestrating business intelligence solutions."<br><br>
                             Carissa's mom thinks I'm "pretty ok".
                     </div>
                     <div class="grid-item aboutitem2">
                         Major professional accomplishments include:<br><br>
-                            Functioned as project hub of cross-functional teams of client financial and accounting personnel, inside and outside legal counsel, financial advisors, data analysts, and assorted third party vendors.<br><br>
-                            Scale business unit by approximately 3x.<br><br>
-                            Onboard, train, and mentor team members.<br><br>
-                            Engaged, motivated and trained client & team personnel in 20+ special projects.<br><br>
+                        &#9755; Functioned as project hub of cross-functional teams of client financial and accounting personnel, inside and outside legal counsel, financial advisors, data analysts, and assorted third party vendors.<br><br>
+                        &#9755; Scale business unit by approximately 3x.<br><br>
+                        &#9755; Onboard, train, and mentor team members.<br><br>
+                        &#9755; Engaged, motivated and trained client & team personnel in 20+ special projects.<br><br>
                     </div>
                     <div class="grid-item aboutitem3">
-                        <a class="chadbutton" id="chadbutton1" href="img/Chad_M_Tolleson_Resume.pdf" target="0">
+                        <a class="chadbutton chadbutton1" href="img/Chad_M_Tolleson_Resume.pdf" target="0">
                         Click Here For My Resume</a>
                     </div>
                     <div class="grid-item aboutitem4">
                         <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="chad-m-tolleson">
                             <a class="LI-simple-link" href='https://www.linkedin.com/in/chad-m-tolleson?trk=profile-badge' target="0">
-                                Chad M. Tolleson, profile did not load.
+                                Click Here for My LinkedIn Profile<br>The Profile Badge Did Not Load
                             </a>
                         </div>
                     </div>
                     <div class="grid-item aboutitem5">
-                        <a class="chadbutton" id="chadbutton2" href="https://github.com/tollesonpdx" target="0">
+                        <a class="chadbutton chadbutton2" href="https://github.com/tollesonpdx" target="0">
                             Click Here For My GitHub Profile
-                            <!-- <img src="img/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" alt="GitHub Link"> -->
+                            <img src="img/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" alt="GitHub Link" style="padding-left: 45%;">
                         </a>
                     </div>
-                    <div class="grid-item aboutitem6">currently unused</div>
+                    <div class="grid-item aboutitem6">Technical Skills:<br>Microsoft Office Suite, SQL Server, Adobe Acrobat Professional, Python, C, C++, SQLite, PostgreSQL, MySQL, HTML, CSS, Cassandra, MongoDB, JavaScript, Vim, Git, PMP Certified</div>
                 </div>
             </div>
         </section>

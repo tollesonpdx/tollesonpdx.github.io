@@ -29,6 +29,15 @@ Drafted the skeleton of the portfolio website via assignments 1 and 2.
 -reformatted the news links page and moved the links to both news and equine onto the projects page
 -the fancy horse pictures were not resizing according to the viewport, so I found some customized settings for images that will allow the pics to grow or shrink within certain parameters while also maintaining their original aspect ratios. This page is where I found the related formatting code: https://stackoverflow.com/questions/12991351/css-force-image-resize-and-keep-aspect-ratio
 -updated the about me page to include a brief bio and links to LinkedIn, GitHub, and my resume. Ran into a problem with an unordered list of professional accomplishments not fitting into my grid container. I took the low road and reformatted the underorderd list and list items into text with line breaks and hard coded bullet points. 
+-added buttons for links to my resume, GitHub page, and LinkedIn
+-ran into formatting issues with the buttons so I changed them to highly formatted links instead
+-broke for pizze
+-established the framework into which the project information will be deposited
+-created new git repositories for the projects to be features on the portolio page of the websiet
+-added desriptions of the key projects to the portfolio page
+-linked the new git repositories to the portfolio page
+-updated the head and header section on all pages from the master versions on index.html
+-updated the main git repository for submission
 
 # To Do Before Submission
 -update the head on each page to match index
