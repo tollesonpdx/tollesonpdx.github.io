@@ -19,7 +19,7 @@ body {
                     1pt -1pt 0 #000,
                     -1pt 1pt 0 #000,
                     1pt 1pt 0 #000;
-    margin: 7% 0 5% 0;
+    margin: 0% 0 5% 0;
 }
 
 .sectionheader {
@@ -53,6 +53,9 @@ a:hover {
                                 'two'
                                 'four'
                                 ;
+    }
+    body {
+        margin: 7% 0 5% 0;
     }
 }
 
