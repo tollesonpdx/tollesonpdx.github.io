@@ -1,7 +1,7 @@
 
 :root {
     --coolgreen:#17b06b;
-    /* --coolgreen:rgb(47,249,36); */
+    /* --coolgreen:chartreuse; */
     --mustard:rgb(255,219,88);
 }
 
@@ -14,7 +14,7 @@
 
 body {
     /* font-family: sans-serif; */
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     background-color: black;
     color: aliceblue;
     text-shadow:    -1pt -1pt 0 #000,
@@ -33,8 +33,7 @@ body {
 
 a:hover {
     color: var(--coolgreen);
-    /* background-color: aliceblue; */
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #about-grid {
@@ -64,6 +63,7 @@ a:hover {
     font-size: 2rem;
     margin-top:7%;
 }
+
 .item2 { 
     grid-area: two;
     text-align: center;
@@ -76,7 +76,7 @@ a:hover {
     grid-area: four;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: left;
     background-color: inherit;
 }
 
