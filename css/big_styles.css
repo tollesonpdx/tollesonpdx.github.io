@@ -120,6 +120,9 @@ a:hover {
     pointer-events: none;
     opacity: 0.5;
     visibility: hidden;
+    background-image: url(/img/train_02.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: darkolivegreen;
 }
 
