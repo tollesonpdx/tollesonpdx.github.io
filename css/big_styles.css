@@ -1,7 +1,7 @@
 
 :root {
-    --coolgreen:#17b06b;
-    /* --coolgreen:chartreuse; */
+    /* --coolgreen:#17b06b; */
+    --coolgreen:chartreuse;
     --mustard:rgb(255,219,88);
 }
 
@@ -15,17 +15,17 @@
 body {
     background-color: black;
     color: aliceblue;
-    text-shadow:    -1pt -1pt 0 #000,
+    /* text-shadow:    -1pt -1pt 0 #000,
                     1pt -1pt 0 #000,
                     -1pt 1pt 0 #000,
-                    1pt 1pt 0 #000;
+                    1pt 1pt 0 #000; */
     margin: 0% 0 5% 0;
 }
 
 .sectionheader {
     text-align: center;
-    color: var(--coolgreen);
-    font-size: 2rem;
+    /* color: var(--coolgreen); */
+    font-size: 3rem;
     margin-top: 10%;
 }
 
@@ -92,7 +92,7 @@ a:hover {
     overflow: hidden;
     height: 500px;
     margin-top: 10%;
-    color: var(--coolgreen);
+    /* color: var(--coolgreen); */
 }
 
 #big-vid-text{
@@ -106,7 +106,7 @@ a:hover {
 }
 
 #vid-button{
-    color: var(--coolgreen);
+    /* color: var(--coolgreen); */
 }
 
 #big-vid {
@@ -120,10 +120,6 @@ a:hover {
     pointer-events: none;
     opacity: 0.5;
     visibility: hidden;
-    /* background-image: url(/img/train_02.gif); */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    /* background-color: darkolivegreen; */
 }
 
 .project-container {
