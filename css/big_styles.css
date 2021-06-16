@@ -79,6 +79,7 @@ a:hover {
     flex-flow: row wrap;
     justify-content: left;
     background-color: inherit;
+    font-size: 3rem;
 }
 
 .about-item {
