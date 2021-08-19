@@ -6,4 +6,4 @@ For this website I used the following resources:
 - HTML
 - CSS
 - [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/)
-- With links to 3rd party websites [LinkedIn](www.linkedin.com) and [GitHub](www.github.com).
+- With links to 3rd party websites [LinkedIn](https://www.linkedin.com) and [GitHub](https://www.github.com).
