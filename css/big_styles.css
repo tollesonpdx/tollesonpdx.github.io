@@ -41,7 +41,9 @@ a:hover {
     grid-template-columns: 3fr 9fr;
     grid-template-areas:    'one one'
                             'two three'
-                            'four four'
+                            'two four'
+                            'two five'
+                            'six six'
                             ;
 }
 
@@ -49,9 +51,11 @@ a:hover {
     #about-grid {
         grid-template-columns: 1fr;
         grid-template-areas:    'one'
-                                'three'
                                 'two'
+                                'three'
                                 'four'
+                                'five'
+                                'six'
                                 ;
     }
     body {
@@ -72,9 +76,11 @@ a:hover {
 }
 
 .item3 { grid-area: three; }
+.item4 { grid-area: four; }
+.item5 { grid-area: five; }
 
-.item4 { 
-    grid-area: four;
+.item6 { 
+    grid-area: six;
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
